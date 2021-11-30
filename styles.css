@@ -147,12 +147,17 @@ blockquote {
     line-height: 32px;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
     
+    
 }
 
 li {
-    list-style-type:disc
+    list-style-type:disc;
+    color: #343a40;
 }
 
+ul {
+    margin-bottom: 48px;
+}
 
 
 h4 {
@@ -161,5 +166,40 @@ h4 {
     color: #343a40;
     margin-bottom: 24px;
     
+}
 
+section {
+    margin-bottom: 96px;
+}
+
+.fiyat {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+
+}
+
+.b-kucuk {
+    background-color: #087f5b;
+    padding: 8px 12px;
+    border: solid white;
+    border-radius: 100px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.fiyat-p {
+    font-size: 15px;
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: #343a40;
+}
+
+footer {
+    margin-bottom: 48px;
+    font-size: 14px;
+    color: #343a40;
+    font-family: sans-serif;
 }
