@@ -1,5 +1,143 @@
-.baslik {
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.metin-kutusu {
     display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: ;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    margin-top: 64px;
+    margin-bottom: 96px;
+    /* */
+    font-family: sans-serif;
+}
+
+
+/* TYPOGRAPHY */
+h1 {
+    font-family: sans-serif;
+    font-size: 36px;
+    color: #343a40;
+    margin-bottom: 32px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 24px;
+    line-height: 30px;
+}
+
+button {
+    /*text-decoration: none;*/
+    /* bu tex-decoration neden çalışmıyor diye düşünüyordum.
+    çünkü a'ya, yani linke uygulamıyormuşum ki...*/
+    font-size: 18px;
+    background-color: #087f5b;
+    padding: 16px 32px;
+    border: solid white;
+    border-radius: 100px;
+ 
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border-radius: 12px;
+}
+
+.kriterler {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 80px;
+    
+}
+
+
+h2 {
+    margin-bottom: 48px;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #343a40;
+
+}   
+
+.kriter-baslik {
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #343a40;
+    line-height: 48px;
+}
+
+
+.yesil-yorum {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 80px;
+
+}
+
+.yorumlar {
+    grid-column: 2 / 4;
+}
+
+img {
+    width: 100%;
+}
+
+.yesil-s {
+    background-color: #087f5b;
+    padding: 24px;
+    border-radius: 12px;
+    color: white;
+    margin-bottom: 96px;
+
+
+}
+
+h3  {
+    color: white;
+    font-family: sans-serif;
+    line-height: 48px;
+    font-size: 24px;   
+    
+}
+
+blockquote {
+    line-height: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+.yazar {
+    color: #c3fae8
+}
+
+
+.sandalyeler {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sandalye1 {
+    display: grid;
+    justify-items: center;
 }
