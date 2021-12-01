@@ -1,3 +1,7 @@
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +11,8 @@ body {
     width: 960px;
     margin-right: auto;
     margin-left: auto;
+    font-family: "Inter", sans-serif;
+    border-bottom: 8px solid #087f5b;
 }
 
 .metin-kutusu {
@@ -18,26 +24,29 @@ body {
     margin-top: 64px;
     margin-bottom: 96px;
     /* */
-    font-family: sans-serif;
+    
 }
 
 
 /* TYPOGRAPHY */
 h1 {
-    font-family: sans-serif;
-    font-size: 36px;
+    font-size: 44px;
     color: #343a40;
     margin-bottom: 32px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 1.1;
+    letter-spacing: -1px;
 
 }
 
-p {
+.header-metin {
     font-size: 18px;
     margin-bottom: 24px;
-    line-height: 30px;
+    line-height: 1.5;
+
 }
+
+
 
 button {
     /*text-decoration: none;*/
@@ -48,9 +57,15 @@ button {
     padding: 16px 32px;
     border: solid white;
     border-radius: 100px;
- 
-
+    font-weight: 500;
 }
+
+button:hover,
+button:active {
+    background-color: #099268;
+}
+
+
 
 a{
     text-decoration: none;
@@ -72,17 +87,22 @@ img {
 h2 {
     margin-bottom: 48px;
     font-size: 36px;
-    font-family: sans-serif;
+    letter-spacing: -0.5px;
     color: #343a40;
 
 }   
 
 .kriter-baslik {
     margin-bottom: 0px;
-    font-family: sans-serif;
     font-weight: bold;
     color: #343a40;
     line-height: 48px;
+    font-size: 20px;
+}
+
+.kriter-ozellik {
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 
@@ -115,14 +135,14 @@ h3  {
     color: white;
     font-family: sans-serif;
     line-height: 48px;
-    font-size: 24px;   
+    font-size: 24px;  
+    letter-spacing: -0.6px; 
     
 }
 
 blockquote {
-    line-height: 30px;
     font-size: 18px;
-    font-family: sans-serif;
+    line-height: 1.6;
     font-style: italic;
     margin-bottom: 24px;
 }
@@ -142,11 +162,10 @@ blockquote {
 .sandalye1, .sandalye2, .sandalye3 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 32px;
+    align-items: flex-start;
     line-height: 32px;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
-    
+    padding-left: 36px;
     
 }
 
@@ -157,12 +176,12 @@ li {
 
 ul {
     margin-bottom: 48px;
+    padding: 0 0 0 16px;
 }
 
 
 h4 {
     font-size: 20px;
-    font-family: sans-serif;
     color: #343a40;
     margin-bottom: 24px;
     
@@ -174,8 +193,11 @@ section {
 
 .fiyat {
     display: flex;
-    gap: 10px;
-    align-items: center;
+    gap: 40px;
+    
+    
+    
+    
     
 
 }
@@ -187,19 +209,20 @@ section {
     border-radius: 100px;
     font-size: 14px;
     line-height: 15px;
+    font-family: "Inter";
 }
 
 .fiyat-p {
     font-size: 15px;
     margin-bottom: 0;
     font-weight: bolder;
-    font-family: sans-serif;
     color: #343a40;
+    letter-spacing: -1px;
 }
 
 footer {
     margin-bottom: 48px;
     font-size: 14px;
     color: #343a40;
-    font-family: sans-serif;
+
 }
