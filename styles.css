@@ -166,24 +166,29 @@ blockquote {
     line-height: 32px;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
     padding-left: 36px;
+
     
 }
 
 li {
-    list-style-type:disc;
+    list-style-type: none;
     color: #343a40;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 ul {
     margin-bottom: 48px;
-    padding: 0 0 0 16px;
+    padding-left: 0px;
+    
 }
 
 
 h4 {
     font-size: 20px;
     color: #343a40;
-    margin-bottom: 24px;
+    margin: 12px 0px
     
 }
 
@@ -224,5 +229,19 @@ footer {
     margin-bottom: 48px;
     font-size: 14px;
     color: #343a40;
+
+}
+
+.ikon {
+    height: 32px;
+    width: 32px;
+    stroke: #099268;
+  }
+
+
+.ikon-alt {
+    height: 24px;
+    width: 24px;
+    stroke: #099268;
 
 }
