@@ -48,7 +48,7 @@ h1 {
 
 
 
-button {
+.b-buyuk {
     /*text-decoration: none;*/
     /* bu tex-decoration neden çalışmıyor diye düşünüyordum.
     çünkü a'ya, yani linke uygulamıyormuşum ki...*/
@@ -93,7 +93,7 @@ h2 {
 }   
 
 .kriter-baslik {
-    margin-bottom: 0px;
+    margin-top: 16px;
     font-weight: bold;
     color: #343a40;
     line-height: 48px;
@@ -145,6 +145,8 @@ blockquote {
     line-height: 1.6;
     font-style: italic;
     margin-bottom: 24px;
+    color: #e6fcf5;
+
 }
 
 .yazar {
@@ -166,6 +168,7 @@ blockquote {
     line-height: 32px;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
     padding-left: 36px;
+    
 
     
 }
@@ -179,8 +182,11 @@ li {
 }
 
 ul {
-    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 56px;
     padding-left: 0px;
+    gap: 12px;
     
 }
 
@@ -199,6 +205,7 @@ section {
 .fiyat {
     display: flex;
     gap: 40px;
+    margin-bottom: 24px;
     
     
     
@@ -209,11 +216,10 @@ section {
 
 .b-kucuk {
     background-color: #087f5b;
-    padding: 8px 12px;
-    border: solid white;
+    padding: 4px 12px;
+    border: 1px solid white;
     border-radius: 100px;
     font-size: 14px;
-    line-height: 15px;
     font-family: "Inter";
 }
 
@@ -223,6 +229,7 @@ section {
     font-weight: bolder;
     color: #343a40;
     letter-spacing: -1px;
+    
 }
 
 footer {
@@ -243,5 +250,14 @@ footer {
     height: 24px;
     width: 24px;
     stroke: #099268;
+
+}
+
+.s-resim {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+
+
 
 }
