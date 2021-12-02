@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 700px;
+    font-family: "Inter", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.acc-1 {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 24px;
+    column-gap: 24px;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.ikon {
+    width: 24px;
+    height: 24px;
+    color: #087f5b; 
+}
+
+
+.no-1 {
+    color: #ced4da;
+    font-size: 24px;
+}
+
+.no-2 {
+    color: #087f5b;
+    font-size: 24px;
+}
+
+.orta-metin {
+    color: #343a40;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.orta-metin-2 {
+    color: #087f5b;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+.acc-2 {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 24px;
+    column-gap: 24px;
+    row-gap: 24px;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #087f5b;
+}
+
+.metin-kutusu {
+    grid-column: 2 / 3;
+    color: #868e96;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 0;
+    margin-left: 20px;
+}
