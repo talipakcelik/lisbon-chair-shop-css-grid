@@ -1,0 +1,120 @@
+      /*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+      /*
+      MAIN COLOR: #087f5b
+      GREY COLOR: #343a40
+      */
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section {
+    width: 800px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin:auto;
+}
+
+
+
+.btn { /*
+    width: 72px;
+    height: 72px;
+
+
+    /**/ /*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    */
+}
+
+
+.btn--left {
+    height: 50px;
+    width: 50px;
+    color: #087f5b;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #087f5b;
+    padding: 12px;
+    
+    
+
+
+
+}
+
+.btn:hover {
+    
+}
+
+.btn--left:hover {
+    background-color: #087f5b;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #343a40;
+    font-size: 22px;
+    border-radius: 50%;
+    padding: 6px 12px;
+
+}
+
+a:hover {
+    background-color: #087f5b;
+    color: white;
+}
+
+/* .sayi {
+    display: flex;
+    gap: 36px;
+} */
+
+.fill {
+    background-color: #087f5b;
+    color: white;
+}
+
+.btn--right {
+    height: 50px;
+    width: 50px;
+    color: #087f5b;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #087f5b;
+    padding: 12px;
+    
+
+}
+
+.btn--right:hover { 
+    background-color: #087f5b;
+    color: white;
+
+}
